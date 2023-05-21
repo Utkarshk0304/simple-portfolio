@@ -1,0 +1,223 @@
+.gradient-background{
+  
+    background: linear-gradient(300deg,deepskyblue,#4c52be,#23276f,#090c55,#020321,#000108);
+  background-size: 360% 360%;
+
+  animation: gradient-animation 9s ease infinite;
+  min-height:100vh;
+  width:100%;
+
+ 
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.text-light{  
+    font-size: 4rem;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+}
+.text-white{
+
+    font-family: 'Libre Baskerville', serif;
+}
+#myimage{
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 1px rgb(115, 115, 248) ;
+}
+@media(min-height:100px){
+.one{
+    height:100vh;
+    font-size: 2vw;
+    min-height: 600px;
+    width: 100%;
+    background: rgb(149,168,249);
+background: linear-gradient(90deg, rgba(149,168,249,1) 5%, rgba(217,221,250,1) 100%);
+}
+}
+.lead{
+    font-size:25px; 
+}
+.border-bottom{
+    font-size: 2.5rem;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+}
+    
+.two{
+    color:black;
+    text-shadow: 2px 2px rgb(252, 245, 245);
+    text-align: center;
+    
+}
+.three{
+    color:white;
+    text-shadow: 2px 2px rgb(0, 5, 10);
+    text-align: center;
+    
+}
+.myintro{
+ min-height: auto;
+ min-height: auto;
+}
+.four{
+    color:white;
+    text-shadow: 2px 2px rgb(1, 7, 10);
+    text-align: center;
+    
+}
+.resume{
+color:black;
+text-shadow:2px 2px  grey ;
+font-size: 2.5rem;
+font-family: 'EB Garamond', serif;
+font-family: 'Foldit', cursive;
+font-family: 'Libre Baskerville', serif;
+
+
+}
+.projects{
+    background-image: url(./images/pattern1.jpg)
+    ;
+    background-size: 1200px;
+    min-height:100vh;
+    
+    
+}
+.card{
+    background-size: 500px;
+    height: auto;
+    width:100%;
+    opacity: 1.0;
+    
+   
+}
+
+.container{
+    position:relative;
+}
+.link{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:1;
+
+}
+.bottom-container {
+    height:auto;
+  padding-bottom: 50px;
+text-align: center;
+
+
+
+}
+.aboutme{
+    height:auto;
+    background-size: 1100px;
+    background-image: url(./images/carlos-torres-MHNjEBeLTgw-unsplash\ \(1\).jpg);
+}
+a{
+   text-decoration: none; 
+   
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+a:link{
+color:black;
+}
+#hanging-icons{
+    padding: 20px;
+}
+@media(min-width:300px)and (max-width:500px){
+.responsive{
+    max-width: 250px;
+    
+    
+}
+.text-white{
+
+    font-size: 15px;
+    text-shadow: 1px 1px black;
+
+}
+.text-light{
+    text-shadow: 1px 2px black;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+#myimage{
+    margin-top:15px ;
+    height:160px;
+    width:150px
+}
+.lead{
+    
+    font-size:20px ;
+}
+.resume{
+    font-size: 1rem;
+    
+}
+#row{
+    width:250px;
+    
+}
+.card{
+    height: 100px;
+}
+.nav-link{
+    font-size:20px;
+   
+}
+.text-white{
+    color: black;
+}
+
+}
+.gradient-background,.projects{
+    background: rgb(149,168,249);
+background: linear-gradient(90deg, rgba(149,168,249,1) 5%, rgba(217,221,250,1) 100%);
+}
+.aboutme{
+    background: linear-gradient(300deg,deepskyblue,#4c52be,#23276f,);
+  background-size: 360% 360%;
+
+  animation: gradient-animation 50s ease infinite;
+  
+
+ 
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
